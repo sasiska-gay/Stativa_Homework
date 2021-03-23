@@ -1,2 +1,2 @@
-# pro2-frontend
+# Stativa_Homework
 for doing something ridiculous
