@@ -1,0 +1,91 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
+nav {
+    margin-left: 315px;
+}
+
+
+main {
+    margin-bottom: 66px;
+}
+
+.li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 18%;
+    font-size: 14px;
+    line-height: 19px;
+    color: #7D7D7D;
+
+}
+
+a {
+    color: #7D7D7D;
+    text-decoration: none;
+}
+
+a:hover {
+    color: 03a9f4;
+}
+.container {
+    width: 75.5vw;
+    margin-left: 147px;
+}
+
+.card {
+    display: inline-block;
+    width: 46.35%;
+}
+
+.card img {
+    width: 420px;
+    height: 280px;
+}
+.card h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    margin-top: 62px;
+    margin-bottom: 32px;
+}
+.card h2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+.card p {
+
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 130px;
+    color: #626262;
+}
+.card:nth-child(2n+1) {
+    margin-right: 65px;
+}
+
+button {
+
+    font-size: 14px;
+    line-height: 19px;
+    padding: 20px 49px;
+    color: #7D7D7D;
+    border: 1px solid #626262;
+    margin-left: 503px;
+    margin-top: 90px;
+    background-color: #fff;
+}
+
+button:hover {
+    color: black;
+    cursor: pointer;
+}
