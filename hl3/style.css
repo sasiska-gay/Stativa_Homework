@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+header {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  color: #95e1d3;
+  padding-top: 15px;
+}
+
+.menu-item:hover {
+  color: #f38181;
+  cursor: pointer;
+  border-bottom: 3px solid #f38181;
+}
+
+.logo {
+  font-size: 30px;
+  color: #95e1d3;
+  font-weight: 700;
+}
+
+main {
+  margin-top: 110px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 24px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Kaushan Script";
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: #333333;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 14px;
+color: #333333;
+font-weight: 400;
+font-family: "Montserrat";
+}
+p {
+  
+  height: 81px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+
+
+.line {
+  width: 60px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 50px;
+}
+
+.services {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.service {
+  display: flex;
+}
+
+.description {
+  text-align: center;
+  width: 945px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.photo-box {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 96px;
+}
+
+.photo-title {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 400;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.photo-text {
+  text-align: center;
+  font-size: 15px;
+line-height: 24px;
+color: #999999;
+font-weight: 300;
+font-style: italic;
+font-family: "Roboto";
+text-align: center;
+}
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 15px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe-btn {
+  width: 150px;
+  height: 40px;
+  background-color: #95e1d3;
+  border: none;
+  color: #fff;
+}
+
+.subscribe-input {
+  width: 230px;
+  height: 36px;
+  border: 1px solid #e7e7e7;
+  padding-left: 10px;
+  font-size: 15px;
+line-height: 24px;
+color: #dbdada;
+font-weight: 300;
+font-style: italic;
+font-family: "Roboto";
+}
+
+h5 {
+  font-size: 14px;
+color: #333333;
+font-weight: 400;
+font-family: "Montserrat";
+}
+
+span {
+  color: rgb(246, 161, 161);
+}
