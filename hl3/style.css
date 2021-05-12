@@ -94,11 +94,50 @@ p {
 
 .photo-box {
   display: flex;
+  
   max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
   margin-top: 96px;
 }
+
+.photo-hover {
+  position: relative;
+}
+
+.absolute {
+  display: none;
+  position: absolute;
+  width: 380px;
+  height: 470px;
+  background-color: rgba(245, 185, 142, 0.5);
+  bottom: 8px;
+  right: 8px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 200px;
+  height: 40px;
+  background-color: #fce38a;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.social img {
+  height: 30px;
+}
+  
+
+
+.photo-hover:hover > .absolute {
+  display: block;
+}
+
 
 .photo-title {
   font-size: 20px;
@@ -107,6 +146,7 @@ p {
   font-family: "Montserrat";
   text-align: center;
 }
+
 
 .photo-text {
   text-align: center;
